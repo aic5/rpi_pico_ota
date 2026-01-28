@@ -4,7 +4,7 @@
     {
       "path": "app_main.py",
       "url": "https://raw.githubusercontent.com/aic5/rpi_pico_ota/new/main/releases/0.0.1/app_main.py",
-      "sha256": "<PUT_SHA256_HERE>"
+      "sha256": "0a04703788275585930facaa692ee0ada07c696808ddc0a5b552784dad52a3e"
     }
   ]
 }
