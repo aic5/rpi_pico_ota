@@ -7,7 +7,7 @@ def healthcheck():
     return True
 
 def main():
-    print("Mock App v2 running.")
+    print("Mock App v1 running.")
     i = 0
     while True:
         print("tick", i)

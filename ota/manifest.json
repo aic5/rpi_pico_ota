@@ -1,9 +1,9 @@
 {
-  "version": "0.0.1",
+  "version": "0.0.2",
   "files": [
     {
       "path": "app_main.py",
-      "url": "https://raw.githubusercontent.com/aic5/rpi_pico_ota/main/releases/0.0.1/app_main.py",
+      "url": "https://raw.githubusercontent.com/aic5/rpi_pico_ota/main/releases/0.0.2/app_main.py",
       "sha256": "80a04703788275585930facaa692ee0ada07c696808ddc0a5b552784dad52a3e"
     }
   ]

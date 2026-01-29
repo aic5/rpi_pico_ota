@@ -7,3 +7,14 @@ app v1 sha256: 0a04703788275585930facaa692ee0ada07c696808ddc0a5b552784dad52a3e
 
 curl -L "https://raw.githubusercontent.com/aic5/rpi_pico_ota/main/releases/0.0.1/app_main.py" | shasum -a 256
 80a04703788275585930facaa692ee0ada07c696808ddc0a5b552784dad52a3e
+
+
+-- Get current version
+import ota
+print("version:", ota.get_current_version())
+
+import os
+print("root:", os.listdir("/"))
+print("app:", os.listdir("/app"))
+print("app_prev exists:", "app_prev" in os.listdir("/"))
+
