@@ -18,3 +18,19 @@ print("root:", os.listdir("/"))
 print("app:", os.listdir("/app"))
 print("app_prev exists:", "app_prev" in os.listdir("/"))
 
+
+# --- Machine reset ---
+import machine
+machine.reset()
+
+# --- Connect WiFi ---
+import wifi
+wifi.connect()
+
+
+# --- OTA Test ---
+import ota
+ota.check_and_update()
+
+
+
